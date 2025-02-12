@@ -1,5 +1,52 @@
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title> Testing my first website</title>
+      <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+      <link rel="stylesheet" href="styles.css">
+      <!-- style sheet for icons (used for github linkedin in footer) -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <!-- header for all pages -->
+  <header class="header">
+    <h1>Welcome to my website!</h1>
+    <hr>
+    <br>
+    <a href="index.html"><button class="nav-button">Home</button></a>
+    <a href="projects.html"><button class="nav-button">Projects</button></a>
+    <a href="work.html"><button class="nav-button">Work Experience</button></a>
+    <a href="interests.html"><button class="nav-button">Interests/Hobbies</button></a>
+    <a href="contact.html"><button class="nav-button">Contact</button></a>
+  </header>
+
+  <!-- main content -->
   <body>
-    Testing
+    <div class="main-container">
+      <div class="main-area">
+        <h2>Bio</h2>
+        <hr>
+        <div class="bio-container">
+          <img src="images/PFP.png" alt="Profile picture" class="pfp">
+          <p id="bio">
+            My name is Austin Martin. Welcome to my website!
+            <br><br>
+            A little about myself, I was born in El Paso, Texas and moved to Las Cruces, NM at about the age
+            of 10. I am currently working on my Bachelor of Science in Computer Science and expected
+            to graduate in Fall of 2025.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
-</head>
+
+
+  <!-- footer for all pages -->
+  <footer>
+    <div class="icon-container">
+      <a class="icon" href="https://github.com/austin-13/austin-13"><i class="fa fa-github"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/austin-martin13/"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+</html>

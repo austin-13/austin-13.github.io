@@ -1,0 +1,207 @@
+/**** header styling for all pages ****/
+
+.header {
+    color: white;
+    background-color: rgb(122, 87, 87); 
+    font-size:10px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/**** styling for buttons ****/
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-family: monospace;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 8px;
+    border-radius: 100px;
+}
+
+/**** body styling for all pages ****/
+
+body {
+    font-family: monospace;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 !important;
+}
+
+/**** footing style for all pages ****/
+
+footer {
+    background-color: rgb(122, 87, 87); 
+    text-align: center;
+    position: relative;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+/**** button styling for all pages ****/
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+/**** styling for home page ****/
+
+.main-area {
+    background-color: rgb(122, 87, 87); 
+    display: inline-block;
+    width: 75%;
+    padding: 0px, 25px, 25px, 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.main-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+
+#bio {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px, 25px, 0px, 25px;
+}
+
+body h1 {
+    text-align: center;
+}
+
+body h2 {
+    border-radius: 10px;
+    text-align: center;
+}
+
+body h3 {
+    background-color: rgb(122, 87, 87); 
+    border-radius: 10px;
+    text-align: center;
+}
+
+/**** styling for project page ****/
+
+h1 {
+    position: relative;
+    align-items: center;
+}
+
+.project-tile {
+    background-color: rgb(122, 87, 87);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 150px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/**** styling for work page ****/
+
+table, th, td {
+    border: 2px solid rgb(122, 87, 87);
+}
+
+th:hover {
+    background-color:rgb(71, 26, 26);
+}
+
+td {
+    text-align: center;
+}
+
+/**** interests styling page ****/
+
+.interests {
+    line-height: 50px;
+    text-align: center;
+}
+
+.interests-table {
+    border: 1px;
+    width: 100%;
+}
+
+
+.interest-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.interest-content {
+    padding: 50px;
+}
+
+/**** contact styling page ****/
+
+li::marker {
+    color: white;
+    text-align: center;
+}
+
+.pfp {
+    width: 100px;
+}
+
+.icon {
+    color: white;
+    font-size: 25px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    gap: 20px;
+}
+
+hr {
+    width: 100%;
+}
