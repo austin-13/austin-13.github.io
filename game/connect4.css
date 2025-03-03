@@ -1,0 +1,88 @@
+body {
+    font-family: Chalkduster, fantasy;
+    text-align: center;
+    background-image: url(images/table.png);
+    background-size: 1000px, 1000px, auto;
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px #9c9adb;
+}
+
+#turn {
+    color: white;
+}
+
+#winner {
+    color: white;
+}
+
+.red-text {
+    color: red;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+.hover-highlight-red {
+    background-color: rgb(237, 127, 127);
+}
+
+.hover-highlight-yellow {
+    background-color: rgb(237, 219, 127);
+}
+
+.falling-piece {
+    animation: drop 1s;
+}
+
+.reset-button {
+    background-color: blue;
+    color: white;
+    font-family: Chalkduster, fantasy;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+@keyframes drop {
+    from {
+        transform: translateY(-450px);
+        opacity: 1;
+    } to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
