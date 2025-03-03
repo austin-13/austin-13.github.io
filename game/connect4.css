@@ -1,7 +1,7 @@
 body {
     font-family: Chalkduster, fantasy;
     text-align: center;
-    background-image: url(images/table.png);
+    background-image: url(images/woodentable.png);
     background-size: 1000px, 1000px, auto;
 }
 h1 {
@@ -26,6 +26,9 @@ h1 {
 }
 
 
+/*
+styling for the game board
+*/
 #board {
     height: 540px;
     width: 630px;
@@ -35,6 +38,11 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/*
+styling for the pieces/tile spaces
+*/
 
 .tile {
     height: 70px;
@@ -65,6 +73,9 @@ h1 {
     animation: drop 1s;
 }
 
+/*
+styling for the reset button
+*/
 .reset-button {
     background-color: blue;
     color: white;
@@ -77,6 +88,10 @@ h1 {
     margin-top: 10px;
 }
 
+
+/*
+styling for the falling/drop animation
+*/
 @keyframes drop {
     from {
         transform: translateY(-450px);
